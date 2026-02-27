@@ -27,4 +27,3 @@ bun.lock
 .copilot/
 __pycache__/
 *.pyc
-push_to_github.py

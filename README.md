@@ -125,6 +125,14 @@ bun run build    # or: npm run build
 
 Output goes to `build/` — static files you can host anywhere.
 
+### Preview Production Build
+
+```bash
+bun run preview    # or: npm run preview
+```
+
+Opens at [http://localhost:4173](http://localhost:4173) — serves the production build locally so you can test before deploying.
+
 ### Extract Game Data
 
 If you have the game's decompiled source, you can regenerate the game data:
